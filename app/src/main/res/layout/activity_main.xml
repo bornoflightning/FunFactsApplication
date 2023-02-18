@@ -2,8 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#556A4E"
+
     tools:context=".MainActivity">
 
     <TextView
@@ -13,23 +16,41 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="128dp"
+        android:layout_marginStart="117dp"
         android:layout_marginTop="79dp"
+        android:padding="10dp"
         android:text="Did you know?"
-        android:textSize="24sp"
         android:textAlignment="center"
-        />
+        android:textColor="#CED0CE"
+        android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/factTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Aunts stretch in the morning when they wake up"
-        android:textSize="24sp"
-        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:text="Ants stretch in the morning when they wake up"
         android:textAlignment="center"
-        />
+        android:textColor="#CED0CE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/factButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="next random fact"
+        android:textColor="#CED0CE"
+        app:backgroundTint="#3F403F" />
 
 
 </RelativeLayout>
